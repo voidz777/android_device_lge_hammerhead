@@ -241,6 +241,15 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \
     power.hammerhead
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext \
+    ims-ext-common \
+    qti-telephony-common
+
+ PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Thermal HAL
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl
