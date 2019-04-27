@@ -1,0 +1,14 @@
+[
+ {
+   "remote": "github",
+   "repository": "voidz777/android_kernel_lge_hammerhead",
+   "target_path": "kernel/lge/hammerhead",
+   "branch": "pie"
+ },
+  {
+   "remote": "github",
+   "repository": "voidz777/proprietary_vendor_lge",
+   "target_path": "vendor/lge",
+   "branch": "pie"
+  }
+]
